@@ -1,0 +1,36 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+
+# 가상환경
+venv/
+env/
+ENV/
+
+# 의존성 관리
+poetry.lock
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# FastAPI 관련
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# 로그 파일
+*.log
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
